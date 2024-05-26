@@ -4,59 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nagacharan Gudiyatham - DevOps Engineer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Nagacharan Gudiyatham</h1>
-        <p>DevOps Engineer</p>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="container">
+            <h1 class="logo">Nagacharan Gudiyatham</h1>
+            <nav>
+                <ul>
+                    <li><a href="#landing">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Skilled DevOps Engineer with over 2.5 years of experience...</p>
+    <section id="landing" class="landing">
+        <div class="landing-text">
+            <h2>DevOps Engineer</h2>
+            <p>Expert in CI/CD Pipelines, Cloud Automation, and Infrastructure Management</p>
+        </div>
+        <img src="devops.png" alt="DevOps Image">
     </section>
     <section id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>CI/CD Pipelines: Jenkins, GitHub Actions</li>
-            <li>IaC: Terraform, Ansible</li>
-            <li>Containers: Docker, Kubernetes</li>
-            <li>Cloud: AWS, Azure</li>
-            <li>Monitoring: Prometheus, Grafana, ELK</li>
-        </ul>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <p>Senior System Associate at Infosys, Bengaluru, India</p>
-        <p>Feb 2022 - Present</p>
-        <ul>
-            <li>Designed Git version control systems...</li>
-            <li>Developed Ansible playbooks...</li>
-            <li>Engineered Jenkins pipelines...</li>
-        </ul>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fas fa-code"></i>
+                <h3>CI/CD Pipelines</h3>
+                <p>Jenkins, GitHub Actions</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud Automation</h3>
+                <p>AWS, Azure</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <h3>Infrastructure as Code</h3>
+                <p>Terraform, Ansible</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-cubes"></i>
+                <h3>Containerization</h3>
+                <p>Docker, Kubernetes</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-chart-line"></i>
+                <h3>Monitoring</h3>
+                <p>Prometheus, Grafana, ELK</p>
+            </div>
+        </div>
     </section>
     <section id="projects">
         <h2>Projects</h2>
-        <p>Intel Corporation: Developed and maintained CI/CD pipelines...</p>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Intel Corporation</h3>
+                <p>Developed and maintained CI/CD pipelines, reducing software release cycles by 40%.</p>
+            </div>
+            <div class="project">
+                <h3>Infosys</h3>
+                <p>Automated multi-tier application deployment with Ansible, reducing deployment time by 60%.</p>
+            </div>
+        </div>
     </section>
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: nagacharan4286@gmail.com</p>
-        <p>Phone: +91 9912495981</p>
-        <p> <a href="https://www.linkedin.com/in/nagacharan-g">LinkedIn</a></p>
-        <p> <a href="https://www.github.com/charan-happy">GitHub</a></p>
-        <p><a href="https://hashnode.com/@charanwrites">BLOGS</a></p>
+        <div class="contact-info">
+            <p>Email: nagacharan4286@gmail.com</p>
+            <p>Phone: +91 9912495981</p>
+            <p>LinkedIn: <a href="#">LinkedIn Profile</a></p>
+            <p>GitHub: <a href="#">GitHub Profile</a></p>
+        </div>
     </section>
     <footer>
         <p>&copy; 2024 Nagacharan Gudiyatham</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
-
